@@ -1,0 +1,60 @@
+# Yocto Build Artifacts
+build/
+tmp/
+sstate-cache/
+downloads/
+cache/
+
+# BitBake logs
+bitbake-cookerdaemon.log
+bitbake.lock
+
+# Build configuration (may contain sensitive info)
+conf/local.conf.backup*
+conf/auto.conf
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# Archives
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.zip
+
+# Personal/sensitive files
+config.json
+*.key
+*.pem
+*.crt
+
+# Assessment file (not needed in public repo)
+*.pdf 
